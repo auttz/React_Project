@@ -13,7 +13,7 @@ function ProfileCard({ name, bio, imgUrl }: ProfileCardProps) {
           src={imgUrl}
           alt="Profile"
           style={{ width: "150px", height: "150px", objectFit: "cover" }}
-        />
+        />  
 
         <h5>ชื่อ: {name}</h5>
         <h5>Bio: {bio}</h5>

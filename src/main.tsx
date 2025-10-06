@@ -7,6 +7,6 @@ import MyTest from './MyTest.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <MyTest />
+    <App />
   </StrictMode>,
 )
